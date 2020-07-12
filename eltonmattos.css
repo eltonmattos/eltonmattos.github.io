@@ -1,0 +1,40 @@
+div{
+    font-family: "Segoe UI", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#cabecalho{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#nav {
+    background-color: #4e82eb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#lateral {
+    background-color: #EEEEEE;
+    padding: 20px;
+    text-align: center;
+}
+
+#conteudo {
+    background-color: white;
+    padding: 40px;
+}
+
+#rodape {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
