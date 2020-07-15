@@ -23,7 +23,7 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #5A85fb;
+  --gray-dark: #343a40;
   --primary: #bd5d38;
   --secondary: #6c757d;
   --success: #28a745;
@@ -31,7 +31,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #5A85fb;
+  --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -60,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -360,10 +360,10 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  //font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #5A85fb;
+  color: #343a40;
 }
 
 h1, .h1 {
@@ -1908,7 +1908,7 @@ pre code {
 
 .table .thead-dark th {
   color: #fff;
-  background-color: #5A85fb;
+  background-color: #343a40;
   border-color: #454d55;
 }
 .table .thead-light th {
@@ -1919,7 +1919,7 @@ pre code {
 
 .table-dark {
   color: #fff;
-  background-color: #5A85fb;
+  background-color: #343a40;
 }
 .table-dark th,
 .table-dark td,
@@ -2682,8 +2682,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #5A85fb;
-  border-color: #5A85fb;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 .btn-dark:hover {
   color: #fff;
@@ -2698,8 +2698,8 @@ fieldset:disabled a.btn {
 }
 .btn-dark.disabled, .btn-dark:disabled {
   color: #fff;
-  background-color: #5A85fb;
-  border-color: #5A85fb;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
@@ -2886,25 +2886,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #5A85fb;
-  border-color: #5A85fb;
+  color: #343a40;
+  border-color: #343a40;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #5A85fb;
-  border-color: #5A85fb;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 .btn-outline-dark:focus, .btn-outline-dark.focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #5A85fb;
+  color: #343a40;
   background-color: transparent;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active, .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #5A85fb;
-  border-color: #5A85fb;
+  background-color: #343a40;
+  border-color: #343a40;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
@@ -3940,7 +3940,7 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #5A85fb;
+  color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4797,7 +4797,7 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #5A85fb;
+  background-color: #343a40;
 }
 a.badge-dark:hover, a.badge-dark:focus {
   color: #fff;
@@ -5587,7 +5587,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5813,7 +5813,7 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #5A85fb;
+  color: #343a40;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -6097,7 +6097,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #5A85fb !important;
+    background-color: #628cff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6167,7 +6167,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #5A85fb !important;
+  background-color: #343a40 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6253,7 +6253,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #5A85fb !important;
+  border-color: #343a40 !important;
 }
 
 .border-white {
@@ -9799,7 +9799,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #628cff !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9855,7 +9855,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #5A85fb !important;
+  color: #343a40 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -10030,7 +10030,7 @@ p.lead {
 }
 
 .subheading {
-  //font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
@@ -10064,8 +10064,8 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
+    //border: 0.5rem solid white;
     background-color: white;
-    border: 0px solid white;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10093,7 +10093,7 @@ p.lead {
   width: 3.5rem;
   background-color: #495057;
   color: #fff;
-  border-radius: 0%;
+  border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
