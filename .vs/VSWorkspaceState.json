@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\img",
+    "\\css"
   ],
-  "SelectedNode": "\\C:\\Users\\elton\\Source\\Repos\\eltonmattos.github.io",
   "PreviewInSolutionExplorer": false
 }
